@@ -65,6 +65,9 @@ a:hover, a:focus, a:active {
   color: #ff9725;
   text-decoration: none;
 }
+iframe{
+  display: inline-block;
+}
 
 .hero-text-heading, .probootstrap-hero h1 {
   font-size: 52px;
