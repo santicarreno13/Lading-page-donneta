@@ -3330,3 +3330,59 @@ input.num-product::-webkit-inner-spin-button {
   }
 
 }
+.probootstrap-copyright {
+  background: #262626;
+  padding: 20px 0;
+}
+
+.probootstrap-copyright a {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.probootstrap-copyright a:hover {
+  color: white;
+}
+
+.probootstrap-copyright p {
+  font-size: 14px;
+}
+
+.probootstrap-copyright p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-copyright p.copyright-text {
+    margin-bottom: 20px;
+  }
+}
+.probootstrap-footer-social {
+  padding: 0;
+  margin: 0;
+}
+
+.probootstrap-footer-social.right {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-footer-social.right {
+    text-align: left;
+  }
+}
+
+.probootstrap-footer-social li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.probootstrap-footer-social li a {
+  padding: 10px;
+  font-size: 22px;
+}
+
+.probootstrap-footer-social li:first-child > a {
+  padding-left: 0;
+}
