@@ -20,19 +20,21 @@
     
     <!-- Fixed navbar -->
     
-    <nav class="navbar navbar-default navbar-fixed-top  ">
+    <nav class="navbar navbar-default navbar-fixed-top" id="colorNavBar">
       <div class="container">
         
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-            <a class="navbar-logo" href="#"><img src="img/logo-horizontal.png" width="120" ></a>
-            </button>
+            <div class="logo1">
+            <a class="navbar-logo" href="#"><img src="img/logo-horizontal.png" width="200" ></a>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Inicio   ||</a>
-                <a class="nav-link" href="Linea/index.html" target="_blank">Pedir En Linea  ||</a>
-                <a class="nav-link" href="#">Iniciar Sesión  ||</a>
-                <a class="nav-link disabled">Registrarse </a>
+                <a class="nav-link active" aria-current="page" href="#" data-nav-section="inicio">Inicio</a>
+                <a class="nav-link" href="#" data-nav-section="menu">Nuestro Menú</a>
+                <a class="nav-link" href="#" data-nav-section="contacto">Contactanos</a>
+                <a class="nav-link" href="Linea/index.html" target="_blank">Pedir En Linea</a>
+                <a class="nav-link" href="">Iniciar Sesión</a>
               </div>
             </div>
           </div>
@@ -43,7 +45,7 @@
 
    
 
-    <section class="flexslider" data-section="welcome">
+    <section class="flexslider" data-section="inicio">
       <ul class="slides">
         <li style="background-image: url(img/1.jpg)" class="overlay" data-stellar-background-ratio="0.5">
           <div class="container">
@@ -85,20 +87,19 @@
       </ul>
     </section>
 
-    <section class="probootstrap-section probootstrap-bg-white" data-section="welcome">
+    <section class="probootstrap-section probootstrap-bg-white" data-section="">
       <div class="container">
         <div class="row">
           <div class="col-md-5 text-center probootstrap-animate">
             <div class="probootstrap-heading dark">
               <h3 class="secondary-heading">Quienes </h3>
               <h3 class="secondary-heading"> Somos</h3>
-              <span class="seperator">* * *</span>
+
             </div>
             <p>La cafetería Donneta ubicada en Outlet de las Américas,
                local en el centro comercial, Outlet Centro. 
                Pide tu domicilio ahora no que te quedes con la espera aprovecha ahora...
             </p>
-            <span class="seperator">* * *</span>
             <p>
               Somos una cafetería en donde preparamos diferentes tipos de donas y diferentes tipos de cafés, 
                dedicada a la venta de donas por medio de domicilios, te los llevamos hasta la puerta de tu hogar
@@ -113,7 +114,7 @@
       </div>
     </section>
 
-    <section class="probootstrap-section-bg overlay" style="background-image: url(img/menu.jpg);"  data-stellar-background-ratio="0.5"  data-section="welcome">
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/menu.jpg);"  data-stellar-background-ratio="0.5"  data-section="menu">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center probootstrap-animate">
@@ -125,9 +126,10 @@
       </div>
     </section>
 
-    <section class="probootstrap-section probootstrap-bg-white" data-section="welcome">
+    <section class="probootstrap-section probootstrap-bg-white" data-section="#">
       <div class="container">
         <div class="row">
+
           <div class="col-md-6">
             <ul class="menus">
               <li>
@@ -154,7 +156,7 @@
                 <div class="text">
                   <span class="price">$4.000</span>
                   <h3>Dona de chispas de Chocolate</h3>
-                  <p>Chocolate / chistapas</p>
+                  <p>Chocolate / Chistapas</p>
                 </div>
               </li>
               <li>
@@ -162,11 +164,53 @@
                 <div class="text">
                   <span class="price">$4.000</span>
                   <h3>Dona de anillo de chocomani</h3>
-                  <p>Chocolate / mani</p>
+                  <p>Chocolate / Mani</p>
                 </div>
               </li>
             </ul>
           </div>
+          
+          <div class="col-md-6">
+            <ul class="menus">
+              <li>
+                <figure class="image"><img src="img/donaChocolateCoco.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+                <div class="text">
+                  <span class="price">$4.000</span>
+                  <h3>Dona cubierta de chocolate con coco</h3>
+                  <p>Chocolate / Coco </p>
+                </div>
+              </li>
+              <li>
+                <figure class="image"><img src="img/oreo.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+                <div class="text">
+                  <span class="price">$4.000</span>
+                  <h3>Dona de anillo oreo</h3>
+                  <p>Chocolate / Glaseado / Oreo</p>
+                </div>
+              </li>
+          </div>
+          <div class="col-md-6">
+            <ul class="menus">
+              <li>
+                <figure class="image"><img src="img/arequipe.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+                <div class="text">
+                  <span class="price">$4.000</span>
+                  <h3>Dona Rellena de arequipe</h3>
+                  <p>Glaseado / Arequipe</p>
+                </div>
+                <li>
+                  <figure class="image"><img src="img/encanto.webp" alt="Free Bootstrap Template by uicookies.com"></figure>
+                  <div class="text">
+                    <span class="price">$4.000</span>
+                    <h3>Dona Encanto de chocolate</h3>
+                    <p>Chocolate / Glaseado</p>
+                  </div>
+                </li>
+              </li>
+            </ul>
+          </div>
+
+        </div>
         </div>
       </div>
     </section>
@@ -186,15 +230,17 @@
     </section>
     
 
-    <section class="probootstrap-section probootstrap-bg-white" data-section="welcome">
+    <section class="probootstrap-section probootstrap-bg-white" data-section="contacto">
       <div class="container">
         <div class="row">
           <div class="col-md-5 text-center probootstrap-animate">
             <div class="probootstrap-heading dark">
               <h3 class="secondary-heading">Hablanos</h3>
+              
             </div>
-            <p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero eos reiciendis ullam perspiciatis, nemo amet blanditiis optio soluta asperiores nihil quidem vitae? Totam, sed quisquam! Molestiae et iste laudantium nisi, minus nulla nesciunt placeat assumenda fugiat, distinctio vero nobis in ducimus cum error voluptate excepturi fugit quod aut repudiandae incidunt ipsam corporis fuga doloremque. Inventore fugit quo fugiat, natus esse maiores vel ipsam omnis. Earum, nostrum ipsa, et velit odio odit voluptatem doloremque tenetur qui laborum aliquam distinctio quasi.</p>
           </div>
+
           <div class="col-md-6 col-md-push-1 probootstrap-animate">
             <form method="post" class="probootstrap-form">
               <div class="form-group">
