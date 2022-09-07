@@ -2363,3 +2363,70 @@ section[data-section="menu"] {
 .img-cafeteria{
   width: 100%;
 }
+
+/* contenido de las cartas */
+
+.cards-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card{
+  width: 400px;
+  padding: 2%;
+  background: rgb(72,214,237);
+  background: linear-gradient(90deg, rgb(164, 92, 63) 0%, rgba(102, 56, 38) 74%); 
+  color: #fff;  
+}
+.bg-card{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  
+}
+.card-info{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+  z-index: 2;
+  font-size: 17px;
+  font-weight: bold;
+}
+.card-info img{
+  width: 65px;
+  border-radius: 50%;
+}
+.card-info div p{
+  margin: 0;
+}
+.card div p{
+  line-height: 20px;
+}
+#comentarios h2{
+  text-align: center;
+  color: #000;
+  margin: auto;
+  font-size: 50px;
+}
+#a{
+  background-image: url(../img/opinion/vector-comentarios.svg);
+  height: 150px;
+  margin-bottom: -20px;
+  
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: url(../img/opinion/vector-comentarios.svg);
+  color: #000;
+  padding: 1em;
+  margin-top: 7em;
+}
+footer div{
+  max-width: 300px;
+
+}
