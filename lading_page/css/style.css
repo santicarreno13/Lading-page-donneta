@@ -22,7 +22,7 @@ body {
   color: black;
   line-height: 24px;
   font-size: 15px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Poppins-Medium", Arial, sans-serif;
 }
 
 h1,
@@ -33,7 +33,7 @@ h5,
 h6 {
   color: #000000;
   line-height: 1.5;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Poppins-Medium", Arial, sans-serif;
 }
 
 h1 {
@@ -1863,7 +1863,7 @@ section[data-section="menu"] {
 }
 
 .probootstrap-heading .primary-heading {
-  font-family: "Pinyon Script", serif;
+  font-family: "Poppins-Medium", serif;
   color: #FFA33E;
   margin: 0;
   padding: 0;
@@ -1878,7 +1878,7 @@ section[data-section="menu"] {
 
 .probootstrap-heading-menu .secondary-heading {
   text-transform: uppercase;
-  color: #FFA33E;
+  color: #78462C;
   margin: 0;
   padding: 0;
   letter-spacing: .05em;
@@ -2437,10 +2437,8 @@ section[data-section="menu"] {
 }
 
 #a {
-  background-image: url(../img/opinion/vector-comentarios.svg);
   height: 150px;
-  margin-bottom: -20px;
-
+  margin-bottom: -70px;
 }
 
 footer {
@@ -2460,3 +2458,5 @@ footer div {
 iframe {
   width: 100%;
 }
+
+
