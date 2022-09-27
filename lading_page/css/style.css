@@ -73,7 +73,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #ff9725;
+  color: rgb(226, 170, 170);
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ iframe {
   }
 
   .navbar-nav > ul {
-    background-color: #773c24;
+    background-color: #bd5050;
     opacity: 90%;
     border-radius: 10px;
     padding: 10px;
@@ -602,15 +602,15 @@ iframe {
 }
 
 .btn.btn-primary {
-  border: 1px solid #FFA33E;
-  background: #FFA33E;
+  border: 1px solid #fff;
+  background: #bd5050;
   color: #ffffff;
 }
 
 .btn.btn-primary:hover,
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
-  background: #ffa848;
+  background: #e79a9a;
 }
 
 .btn.btn-primary:focus,
@@ -1878,7 +1878,7 @@ section[data-section="menu"] {
 
 .probootstrap-heading-menu .secondary-heading {
   text-transform: uppercase;
-  color: #78462C;
+  color: #fff; 
   margin: 0;
   padding: 0;
   letter-spacing: .05em;
@@ -2364,7 +2364,7 @@ section[data-section="menu"] {
 
 
 #colorNavBar {
-  background: #A45C3F;
+  background: #bd5050;
   display: flex;
 }
 
@@ -2392,9 +2392,7 @@ section[data-section="menu"] {
 .card {
   width: 400px;
   padding: 2%;
-  background: rgb(72, 214, 237);
-  background: linear-gradient(90deg, rgb(164, 92, 63) 0%, rgba(102, 56, 38) 74%);
-  color: #fff;
+  color: #000;
 }
 
 .bg-card {
@@ -2426,6 +2424,59 @@ section[data-section="menu"] {
 }
 
 .card div p {
+  line-height: 20px;
+}
+
+#comentarios h2 {
+  text-align: center;
+  color: #000;
+  margin: auto;
+  font-size: 50px;
+}
+
+#a {
+  height: 150px;
+  margin-bottom: -70px;
+}
+
+.cards {
+  width: 400px;
+  padding: 2%;
+  background: rgb(72, 214, 237);
+  background: linear-gradient(90deg, rgb(158, 46, 46) 0%, rgba(189, 80, 80) 54%);
+  color: #fff;
+  border-radius: 35px;
+}
+
+.bg-cards {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+}
+
+.cards-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+  z-index: 2;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.cards-info img {
+  width: 65px;
+  border-radius: 50%;
+}
+
+.cards-info div p {
+  margin: 0;
+}
+
+.cards div p {
   line-height: 20px;
 }
 

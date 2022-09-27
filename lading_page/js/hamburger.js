@@ -12,3 +12,13 @@ hamburgerMenu.onclick = (e) => {
     menu.classList.remove('opened')
   }
 }
+const Linea=document.getElementById('Linea');
+
+Linea.onclick = () => {
+    window.location.href = "Linea/index.html";
+}
+const InicioS=document.getElementById('InicioSesion');
+
+InicioS.onclick = () => {
+    window.location.href = "Register/index.html";
+}
